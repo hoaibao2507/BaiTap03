@@ -6,10 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <Switch
         android:id="@+id/switchChange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thay đổi hình nền" />
+        android:minHeight="48dp"
+        android:text="Thay đổi hình nền"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
